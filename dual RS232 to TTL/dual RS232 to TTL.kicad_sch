@@ -811,7 +811,7 @@
   (symbol (lib_id "power:GND") (at 206 76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 098d17dd-8ecb-4aec-a8e9-cd0f57528185)
-    (property "Reference" "#PWR04" (at 206 82.35 0)
+    (property "Reference" "#PWR012" (at 206 82.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 206 81.28 0)
@@ -827,7 +827,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -836,7 +836,7 @@
   (symbol (lib_id "power:+3V3") (at 75 33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c20a3a5-4596-4115-8203-6e230dc6d708)
-    (property "Reference" "#PWR01" (at 75 36.81 0)
+    (property "Reference" "#PWR05" (at 75 36.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 75 28.1 0)
@@ -852,7 +852,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -861,7 +861,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 194 73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fcdc17f-d685-4f80-a950-8276513fc86a)
-    (property "Reference" "C?" (at 197.72 76.46 0)
+    (property "Reference" "C6" (at 197.72 76.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 197.72 79 0)
@@ -881,7 +881,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -890,7 +890,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 168 53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11ed4b91-fde2-4f0a-b5f5-7daa18a3081e)
-    (property "Reference" "C?" (at 171.72 56.46 0)
+    (property "Reference" "C5" (at 171.72 56.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 171.72 59 0)
@@ -910,7 +910,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -919,7 +919,7 @@
   (symbol (lib_id "power:GND") (at 43 94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 161297b8-1f5a-4052-9fc3-5ec5142fa0f7)
-    (property "Reference" "#PWR08" (at 43 100.35 0)
+    (property "Reference" "#PWR02" (at 43 100.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43 99.03 0)
@@ -935,7 +935,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 206 66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 167adc66-500b-4359-93fd-ab7a4b2ef171)
-    (property "Reference" "C?" (at 209.72 69.46 0)
+    (property "Reference" "C7" (at 209.72 69.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.72 72 0)
@@ -964,7 +964,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -973,7 +973,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 112 32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3221ed47-26a7-4ce4-8e49-cc50cba6f3aa)
-    (property "Reference" "C2" (at 115.87 36.095 0)
+    (property "Reference" "C4" (at 115.87 36.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pf" (at 115.87 38.635 0)
@@ -993,7 +993,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1002,7 +1002,7 @@
   (symbol (lib_id "power:GND") (at 87 42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 740a6839-b1ce-434b-b11a-9c336b99b5fd)
-    (property "Reference" "#PWR013" (at 87 48.35 0)
+    (property "Reference" "#PWR06" (at 87 48.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87 46.63 0)
@@ -1018,7 +1018,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1027,7 +1027,7 @@
   (symbol (lib_id "power:GND") (at 194 83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c692b4d-3dc5-49fa-836c-806082108181)
-    (property "Reference" "#PWR03" (at 194 89.35 0)
+    (property "Reference" "#PWR010" (at 194 89.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194 87.63 0)
@@ -1043,7 +1043,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1052,7 +1052,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 102 53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f85bec9-5abf-433f-8ed3-cda807beecd1)
-    (property "Reference" "C?" (at 105.41 56.46 0)
+    (property "Reference" "C3" (at 105.41 56.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 105.41 59 0)
@@ -1072,7 +1072,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1081,7 +1081,7 @@
   (symbol (lib_id "power:GND") (at 100 42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1a0e7b3-89c1-41f7-a109-7a21e8f24751)
-    (property "Reference" "#PWR011" (at 100 48.35 0)
+    (property "Reference" "#PWR07" (at 100 48.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100 46.63 0)
@@ -1097,7 +1097,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1112,7 +1112,7 @@
     (property "Value" "Conn2x3" (at 213 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 213 104 0)
+    (property "Footprint" "Connector_Molex:Molex_Nano-Fit_105314-xx06_2x03_P2.50mm_Horizontal" (at 213 104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 213 104 0)
@@ -1142,7 +1142,7 @@
     (property "Value" "Conn2x4" (at 60 79.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 60 80 0)
+    (property "Footprint" "Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal" (at 60 80 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 60 80 0)
@@ -1168,7 +1168,7 @@
   (symbol (lib_id "power:GND") (at 138 108 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b581acf1-0d9f-4e6a-bcf4-1ae651a2497f)
-    (property "Reference" "#PWR02" (at 138 114.35 0)
+    (property "Reference" "#PWR09" (at 138 114.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138 113.03 0)
@@ -1184,7 +1184,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1193,7 +1193,7 @@
   (symbol (lib_id "power:+3V3") (at 43 81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbd1889c-5ecb-4f2f-80b9-8dcb0075ea56)
-    (property "Reference" "#PWR06" (at 43 84.81 0)
+    (property "Reference" "#PWR01" (at 43 84.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 43 76.1 0)
@@ -1209,7 +1209,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1218,7 +1218,7 @@
   (symbol (lib_id "power:GND") (at 224 116 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00fafd9-1601-4d92-9be1-3e6a14b479b9)
-    (property "Reference" "#PWR010" (at 224 122.35 0)
+    (property "Reference" "#PWR013" (at 224 122.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224 120.63 0)
@@ -1234,7 +1234,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1243,7 +1243,7 @@
   (symbol (lib_id "Herranz - Capacitor (0805):Gen_C") (at 87 34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5ee887e-1236-4e05-b91b-8567d4d90225)
-    (property "Reference" "C3" (at 90.17 36.135 0)
+    (property "Reference" "C1" (at 90.17 36.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 90.17 38.675 0)
@@ -1263,7 +1263,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1272,7 +1272,7 @@
   (symbol (lib_id "power:GND") (at 201 116 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e15d40c9-0db6-4d07-a65a-4b35df20ce47)
-    (property "Reference" "#PWR09" (at 201 122.35 0)
+    (property "Reference" "#PWR011" (at 201 122.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201 120.63 0)
@@ -1288,7 +1288,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1297,7 +1297,7 @@
   (symbol (lib_id "power:GND") (at 73 94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e90dcb5f-7db0-4971-a467-98cba77c1688)
-    (property "Reference" "#PWR07" (at 73 100.35 0)
+    (property "Reference" "#PWR04" (at 73 100.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73 99.03 0)
@@ -1313,7 +1313,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1328,7 +1328,7 @@
     (property "Value" "~" (at 83 34 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 83 34 0)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 83 34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 83 34 0)
@@ -1348,7 +1348,7 @@
   (symbol (lib_id "Herranz - ICs:MAX3232EEUE") (at 138 78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f200627c-6f0d-4ff1-81ad-eabc801c96a8)
-    (property "Reference" "U?" (at 140.1941 46.99 0)
+    (property "Reference" "U1" (at 140.1941 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX3232EEUE" (at 140.1941 49.53 0)
@@ -1379,7 +1379,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1388,7 +1388,7 @@
   (symbol (lib_id "Herranz - Capacitor (0402):Gen_C") (at 100 32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4072354-05e2-4501-9b10-57c2826e4ef7)
-    (property "Reference" "C1" (at 103.72 35.46 0)
+    (property "Reference" "C2" (at 103.72 35.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 103.72 38 0)
@@ -1408,7 +1408,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1417,7 +1417,7 @@
   (symbol (lib_id "power:GND") (at 112 42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd7f8171-78a3-41ea-97bb-1fb499cfa775)
-    (property "Reference" "#PWR012" (at 112 48.35 0)
+    (property "Reference" "#PWR08" (at 112 48.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 112 46.63 0)
@@ -1433,7 +1433,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1442,7 +1442,7 @@
   (symbol (lib_id "power:+3V3") (at 73 80 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fff9ccae-e216-4f70-9930-4e508c0fbbc4)
-    (property "Reference" "#PWR05" (at 73 83.81 0)
+    (property "Reference" "#PWR03" (at 73 83.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 73 75.1 0)
@@ -1458,7 +1458,7 @@
     (instances
       (project "dual RS232 to TTL"
         (path "/f83ce306-b975-4db1-ad17-124677330e47"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
