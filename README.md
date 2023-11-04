@@ -28,7 +28,7 @@
 
 
 ## Screenshots
-![screenshot](./img/front.png)
+![3D render](./img/front.PNG "3D render")
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
