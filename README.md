@@ -37,10 +37,8 @@ None
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+None
 
-`write-your-code-here`
 
 
 ## Project Status
